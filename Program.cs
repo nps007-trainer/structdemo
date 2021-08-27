@@ -30,6 +30,9 @@ namespace structdemo
             Console.WriteLine("The Person details are ");
             Console.WriteLine("Name {0} , AGe {1} , Weight {2}", p2.Name, p2.Age, p2.Weight);
 
+            Person p3 = p1;
+            p3.Name = "Chaitali";
+            Console.WriteLine("Name {0}", p3.Name);
         }
     }
 }
